@@ -1,0 +1,70 @@
+.centered{
+    text-align: center;
+}
+
+.photo-content{
+    height: auto;
+    background: rgb(229, 229, 229);
+    
+}
+
+.photo-card{
+    margin: 30px;
+    background: url(../img/stud.jpg) center;
+    height: auto;
+    
+}
+
+.photo-card h2{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.photo-card p{
+    font-size: 24px;
+    margin: 30px 140px 30px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-card{
+    margin-top: 70px;
+    background-color: rgba(159,45,32,.6);
+    height: auto;
+}
+
+.footer-card a{
+    padding: 20px;
+    margin: 30px;
+    background: transparent;
+    outline: 2px solid white;
+    color: white;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px){
+    .photo-card{
+        background: #2d2d2d;
+
+    }
+
+    .photo-card p{
+        font-size: 16px;
+        margin: 30px 15px 30px 30px;
+    }
+
+    .photo-card h2{
+        font-size: 30px;
+    }
+
+    .footer-card h2{
+        font-size: 16px;
+    }
+}
