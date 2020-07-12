@@ -5,12 +5,16 @@
 .photo-content{
     height: auto;
     background: rgb(229, 229, 229);
-    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .photo-card{
     margin: 30px;
-    background: url(../img/stud.jpg) center;
+    background: url(../img/stud.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
     height: auto;
     
 }
@@ -60,6 +64,51 @@
     text-decoration: none;
     background: white;
     color: rgb(159,45,32);
+}
+.pgu-news{
+    height: auto;
+    background: rgb(229, 229, 229);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pgu-news img{
+    width: 100%;
+}
+
+.button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.button a{
+    color: white;
+    background: green;
+    padding: 20px;
+}
+
+.card{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.padd{
+    padding-bottom: 57px;
+}
+
+.padd-1{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px){
+    .padd{
+        padding-bottom: 0px;
+    }
+    
+    .padd-1{
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 767px){
