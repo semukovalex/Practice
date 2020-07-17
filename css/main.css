@@ -106,6 +106,10 @@
     margin-top: 50px;
 }
 
+.card h4{
+    font-weight: bold;
+}
+
 .card h2{
     font-size: 40px;
     font-weight: bold;
@@ -117,9 +121,6 @@
     padding-bottom: 57px;
 }
 
-.padd-1{
-    padding-bottom: 20px;
-}
 
 @media screen and (max-width: 1199px){
     .padd{
