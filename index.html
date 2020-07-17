@@ -10,7 +10,7 @@
 <body>
     <div id="header">
         <div class="container photo-content">
-            <div class="row centered">
+            <div class="row text-center">
                 <div class="photo-card text-left">
                     <h2>Поступление в 2020 году</h2>
                     <p>Каждый год новое поколение первокурсников в стенах первого университета Приднестровской Молдавской Республики 
@@ -32,8 +32,8 @@
     </div>
     <div id="news">
         <div class="container pgu-news">
-            <div class="row centered">
-                <div class="card">
+            <div class="row text-center">
+                <div class="cards">
                     <h2>Новости для поступающих</h2>
                     <div class="col-lg-4">
                         <img src="http://econom.spsu.ru/wp-content/uploads/2020/06/priem-2020.jpg" alt="">
@@ -66,6 +66,42 @@
             </div>
         </div>
     </div>
+    <div id="slide">
+        <!-- Контент страницы -->
+        <div id="sl" class="container text-center" style="margin-bottom: 50px;">
+            <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
+                <!-- Индикаторы -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" style="border:0; outline: 6px solid gray;">
+                    <div class="item active">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10917.074464765989!2d29.6313554!3d46.8384018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca66dd062c8cf43c!2z0K3QutC-0L3QvtC80LjRh9C10YHQutC40Lkg0KTQsNC60YPQu9GM0YLQtdGCINCf0JPQow!5e0!3m2!1sru!2s!4v1595001194107!5m2!1sru!2s" width="900" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>     
+                    </div>
+                    <div class="item">
+                        <img src="https://sun9-26.userapi.com/c850324/v850324717/db5d6/aIAZjRGdNRA.jpg" alt="...">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="http://ekopmr.ru/wp-content/uploads/2017/12/MinEkonomPGU.jpg" alt="...">
+                    </div>
+                </div>
+                <!-- Элементы управления -->
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>

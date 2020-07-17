@@ -1,4 +1,13 @@
 .priem-na{
     justify-content: center;
     align-items: center;
+    height: 95vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    background: rgb(229, 229, 229);
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 10px;
 }
